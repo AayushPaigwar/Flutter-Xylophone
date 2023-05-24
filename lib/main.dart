@@ -19,13 +19,14 @@ class XylophoneApp extends StatelessWidget {
   Expanded builtkey(Color color, int soundNumber) {
     return Expanded(
       child: TextButton(
+        
         style: ButtonStyle(
           backgroundColor: MaterialStatePropertyAll(color),
         ),
         onPressed: () {
           playsound(soundNumber);
         },
-        child: Container(),
+        child: Container(child: Center(child: Text("Click Here",style: TextStyle(color :Colors.black))), width: double.infinity,),
       ),
     );
   }
