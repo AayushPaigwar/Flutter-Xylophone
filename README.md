@@ -17,3 +17,5 @@ samples, guidance on mobile development, and a full API reference.
 ---
 
 # Learned about different types of Functions
+
+- Parameterised, 
