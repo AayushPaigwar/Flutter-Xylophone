@@ -18,4 +18,6 @@ samples, guidance on mobile development, and a full API reference.
 
 # Learned about different types of Functions
 
-- Parameterised, 
+- Parameterised, used function which return widgets.
+- Imported "AudioPlayer" library for playing the audio.
+-Functions has important role to reduce the lines of code.
